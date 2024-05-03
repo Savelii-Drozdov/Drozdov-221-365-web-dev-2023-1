@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="sts.css">
+  </head>
+  <body class="pozition">
+    <main>
+      <form class="feedback-form form" method="post" action="https://httpbin.org/post">
+
+        <label for="name" class="form__label">ФИО:</label>
+        <input type="text" id="name" name="name" class="form__input" placeholder="Имя" required>
+
+        <label for="email" class="form__label">Email:</label>
+        <input
+          type="Email"
+          id="email"
+          name="email"
+          class="form__input"
+          placeholder="email"
+          required
+        >
+        <label class="form__label">Откуда узнали о нас:</label>
+        <fieldset class="form__fieldset">
+          <label class="form__option">
+            <input
+              type="radio"
+              name="source"
+              value="social"
+              class="form__radio"
+            >
+            <span>Социальные сети</span>
+          </label>
+          
+          <label class="form__option">
+            <input
+              type="radio"
+              name="source"
+              value="friend"
+              class="form__radio"
+            >
+            <span>От друзей</span>
+          </label>
+          <label class="form__option">
+            <input
+              type="radio"
+              name="source"
+              value="other"
+              class="form__radio"
+            >
+            <span>Другое</span>
+          </label>
+        </fieldset>
+
+        <label for="type" class="form__label">Тип обращения:</label>
+        <select id="type" name="type" class="form__select">
+          <option value="complaint">Жалоба</option>
+          <option value="suggestion">Предложение</option>
+        </select>
+
+        <label for="message" class="form__label">Текст сообщения:</label>
+        <textarea
+          placeholder="Текст сообщения"
+          id="message"
+          name="message"
+          rows="4"
+          class="form__textarea"
+          required
+        ></textarea>
+
+        <label for="attachment" class="form__label">Вложения (файл):</label>
+        <input
+          type="file"
+          id="attachment"
+          name="attachment"
+          class="form__input"
+        >
+
+        <label class="form__consent">
+          <input
+            type="checkbox"
+            name="consent"
+            class="form__checkbox"
+            required
+          >
+          <span>Даю согласие на обработку персональных данных</span>
+        </label>
+
+        <button type="submit" class="form__button">Отправить</button>
+      </form>
+    </main>
+  </body>
+</html>

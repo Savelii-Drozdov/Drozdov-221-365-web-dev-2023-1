@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", 'sans-serif';
+  }
+  
+  .pozition {
+    background-image: url("sea.jpeg");
+    background-size: cover;
+    
+  }
+  
+  
+  .form {
+    max-width: 510px;
+    margin: 62px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+  
+  .form__label  {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form__input,
+  .form__select,
+  .form__textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    max-width: 512px;
+  }
+  
+  .form__checkbox {
+    margin-right: 5px;
+  }
+  
+  .form__radio {
+    margin-right: 5px;
+  }
+  
+  .form__button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form__button:hover {
+    background-color: #45a049;
+  }
+  
+  .form__fieldset {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #cecece;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  
+  .form__consent {
+    display: flex;
+    margin: 13px 0px;
+    align-items: center;
+  }
+  
+  .form__remember {
+    margin-top: 10px;
+  }
+  
+  .form__option {
+    display: flex;
+    padding: 27px;
+  }
+  

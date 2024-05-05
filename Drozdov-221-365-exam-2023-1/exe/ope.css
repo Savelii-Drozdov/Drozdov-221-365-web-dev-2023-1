@@ -1,0 +1,37 @@
+
+
+h2{
+    color: #7FFF00;
+}
+h1{
+    color: #380000	;
+}
+
+h3{
+    color: 	#380000 ;
+}
+
+body{
+    color: #6c3c0c !important;
+}
+.btn-secondary{
+    background-color: #CCC58F	 !important;
+    border-color:#CCC58F	 !important;
+    color: black !important;
+}
+
+.alert-primary{
+    background-color: #6c3c0c !important;
+    border-color: #6c3c0c !important;
+    color: white !important;
+}
+
+.page-link{
+    background-color: black !important;
+    /* border-color: brown !important; */
+    color: white !important;
+}
+
+.bg-dark{
+    background-color:#CCC58F	 !important;
+}
